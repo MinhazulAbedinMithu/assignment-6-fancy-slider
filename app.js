@@ -46,10 +46,8 @@ const selectItem = (event, img) => {
     
   if (item === -1) {
     sliders.push(img);
-    //slideIndicator.appendChild(indicatorItem);
   }else{
     sliders.pop(img);
-    //slideIndicator.removeChild(indicatorItem);
   }
   imgCountShow(sliders.length);
 };
